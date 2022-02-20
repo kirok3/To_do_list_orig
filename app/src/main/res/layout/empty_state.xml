@@ -27,6 +27,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_empty_state" />
+        app:srcCompat="@drawable/ic_fox_1419594" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

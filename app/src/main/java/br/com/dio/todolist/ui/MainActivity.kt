@@ -14,10 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val adapter by lazy { TaskListAdapter() }
 
-    /**
-     * Nova maneira de iniciar uma activity.
-     * Já que `startActivityForResult` foi depreciado.
-     */
+
     private val register =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             if (it.resultCode == Activity.RESULT_OK) updateList()
